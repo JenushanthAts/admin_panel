@@ -11,3 +11,6 @@ step7: create components folder into src folder inside that create topbar folder
 step8: inside topbar folder create topbar.jsx file(using jsx file we can use html elements here).
 
 Note: using shortcut like 'rfc' , Es7 React/redux/graphql/react-native snippets has to be installed
+
+step9: completed topbar works.
+step10: completed sidebar works
