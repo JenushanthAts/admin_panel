@@ -4,7 +4,8 @@ import Sidebar from "./components/sidebar/sidebar";
 import "./app.css";
 import Home from "./pages/home/Home";
 import UserList from "./pages/userList/userList";
-import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import User from "./pages/user/user";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { Switch } from "@mui/material";
 
 function App() {
@@ -14,8 +15,13 @@ function App() {
       {/* container is created for displaying two widgets(sidebar,otherpages) in row manner */}
       <div className="container">
         <Sidebar />
-            <Home />
-            <UserList/>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/users" element={<UserList />}/>
+          <Route path="/user/:userId" element={<User/>}/>
+        </Routes>
+
+
       </div>
     </BrowserRouter>
   );

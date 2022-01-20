@@ -17,7 +17,7 @@ export default function widgetLg() {
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
                         <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" className="widgetLgImg" />
-                        <span className="widgetLgName">Jenushanth</span>
+                        <span className="widgetLgName">Jenushanth .S</span>
                     </td>
                     <td className="widgetLgDate">1 Feb 2022</td>
                     <td className="widgetLgAmount">$100</td>
@@ -26,7 +26,7 @@ export default function widgetLg() {
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
                         <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="img1" className="widgetLgImg" />
-                        <span className="widgetLgName">Jenushanth</span>
+                        <span className="widgetLgName">Jenushanth .S</span>
                     </td>
                     <td className="widgetLgDate">1 Feb 2022</td>
                     <td className="widgetLgAmount">$100</td>
@@ -35,7 +35,7 @@ export default function widgetLg() {
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
                         <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="img2" className="widgetLgImg" />
-                        <span className="widgetLgName">Jenushanth</span>
+                        <span className="widgetLgName">Jenushanth .S</span>
                     </td>
                     <td className="widgetLgDate">1 Feb 2022</td>
                     <td className="widgetLgAmount">$100</td>
@@ -44,7 +44,7 @@ export default function widgetLg() {
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
                         <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="img3" className="widgetLgImg" />
-                        <span className="widgetLgName">Jenushanth</span>
+                        <span className="widgetLgName">Jenushanth .S</span>
                     </td>
                     <td className="widgetLgDate">1 Feb 2022</td>
                     <td className="widgetLgAmount">$100</td>
@@ -53,7 +53,7 @@ export default function widgetLg() {
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">
                         <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="img4" className="widgetLgImg" />
-                        <span className="widgetLgName">Jenushanth</span>
+                        <span className="widgetLgName">Jenushanth .S</span>
                     </td>
                     <td className="widgetLgDate">1 Feb 2022</td>
                     <td className="widgetLgAmount">$100</td>

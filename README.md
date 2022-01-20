@@ -14,7 +14,14 @@ step7: create components folder into src folder inside that create topbar folder
 Note: using shortcut like 'rfc' , Es7 React/redux/graphql/react-native snippets has to be installed
 
 step9: completed topbar works and attached it into main page. 
-step10: completed sidebar works  and attached it into main page
+step10: completed sidebar works  and attached it into main page.
+
 step11: Home page works started and first 3 widgets is created for home as following sale, cost and analytics
 step 12: Chart widget works is done and small widget(New joined menmbers is done).
+
 step13 : Large widget and Home contents is done then move into user parts.
+
+step14:User list page is created and routes also has been establised for each page.Then edit and delete funtionalities is done
+
+
+step 15 : edit page for user has been created.
