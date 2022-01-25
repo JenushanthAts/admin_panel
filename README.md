@@ -23,5 +23,7 @@ step13 : Large widget and Home contents is done then move into user parts.
 
 step14:User list page is created and routes also has been establised for each page.Then edit and delete funtionalities is done
 
+step15: edit page for user information is created in which two flex box created.One box is created completely
+and other is just has been started
 
 step 15 : edit page for user has been created.
