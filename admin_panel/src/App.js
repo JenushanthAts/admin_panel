@@ -5,6 +5,7 @@ import "./app.css";
 import Home from "./pages/home/Home";
 import UserList from "./pages/userList/userList";
 import User from "./pages/user/user";
+import NewUser from "./pages/newUser/newUser";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { Switch } from "@mui/material";
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/users" element={<UserList />}/>
           <Route path="/user/:userId" element={<User/>}/>
+          <Route path="/newUser" element={<NewUser/>}/>
         </Routes>
 
 

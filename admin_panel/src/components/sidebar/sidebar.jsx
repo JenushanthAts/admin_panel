@@ -2,7 +2,7 @@ import React from 'react'
 import "./sidebar.css"
 import {LineStyle,Timeline,TrendingUp,PermIdentity,Storefront,MailOutline,DynamicFeed,
     ChatBubbleOutline,AssessmentOutlined,WorkOutline,ReportGmailerrorred,PaidOutlined} from '@mui/icons-material';
-
+    import { Link } from "react-router-dom";
 export default function sidebar() {
     return (
         <div className="sidebar">
@@ -27,10 +27,13 @@ export default function sidebar() {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">QuickMenu</h3>
                     <ul className="sidebarList">
+                        <Link to="/users" className='link'>
                         <li className="sidebarListItem active">
                             <PermIdentity className="sidebarIcon"/>
                             users
                         </li>
+                        </Link>
+                        
                         <li className="sidebarListItem">
                             <Storefront className="sidebarIcon"/>
                             Products

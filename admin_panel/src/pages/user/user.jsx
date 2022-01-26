@@ -3,12 +3,16 @@ import {
   PermIdentity, CalendarToday, MailOutline, PhoneAndroid,
   LocationSearching, Publish
 } from '@mui/icons-material';
+import { Link } from "react-router-dom";
 export default function User() {
   return (
     <div className="user">
       <div className="userTitleContainer">
         <h1 className="userTitle">Edit User</h1>
+        <Link to="/newUser">
         <button className="userAddBtn">Create</button>
+        </Link>
+        
       </div>
       <div className="userContainer">
         <div className="userShow">
@@ -92,9 +96,10 @@ export default function User() {
               <div className="userUpdateUpload">
                 <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" 
                 alt="userpro2" className="userUpdateImg" />
-                <label htmlFor="file"><Publish/></label>
+                <label htmlFor="file"><Publish className="userUpdateIcon"/></label>
                 <input type="file" id="file" style={{display:"none"}}/>
               </div>
+              <button className="userUpdateBtn">Update</button>
             </div>
           </form>
         </div>
