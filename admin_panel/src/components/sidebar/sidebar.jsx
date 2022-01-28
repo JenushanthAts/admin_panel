@@ -1,8 +1,10 @@
 import React from 'react'
 import "./sidebar.css"
-import {LineStyle,Timeline,TrendingUp,PermIdentity,Storefront,MailOutline,DynamicFeed,
-    ChatBubbleOutline,AssessmentOutlined,WorkOutline,ReportGmailerrorred,PaidOutlined} from '@mui/icons-material';
-    import { Link } from "react-router-dom";
+import {
+    LineStyle, Timeline, TrendingUp, PermIdentity, Storefront, MailOutline, DynamicFeed,
+    ChatBubbleOutline, AssessmentOutlined, WorkOutline, ReportGmailerrorred, PaidOutlined
+} from '@mui/icons-material';
+import { Link } from "react-router-dom";
 export default function sidebar() {
     return (
         <div className="sidebar">
@@ -11,15 +13,15 @@ export default function sidebar() {
                     <h3 className="sidebarTitle">Dashboard</h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem active">
-                            <LineStyle className="sidebarIcon"/>
+                            <LineStyle className="sidebarIcon" />
                             Home
                         </li>
                         <li className="sidebarListItem">
-                            <Timeline className="sidebarIcon"/>
+                            <Timeline className="sidebarIcon" />
                             Analytics
                         </li>
                         <li className="sidebarListItem">
-                            <TrendingUp className="sidebarIcon"/>
+                            <TrendingUp className="sidebarIcon" />
                             Sales
                         </li>
                     </ul>
@@ -28,22 +30,25 @@ export default function sidebar() {
                     <h3 className="sidebarTitle">QuickMenu</h3>
                     <ul className="sidebarList">
                         <Link to="/users" className='link'>
-                        <li className="sidebarListItem active">
-                            <PermIdentity className="sidebarIcon"/>
-                            users
-                        </li>
+                            <li className="sidebarListItem active">
+                                <PermIdentity className="sidebarIcon" />
+                                users
+                            </li>
                         </Link>
-                        
+
+                        <Link to="/products" className='link'>
+                            <li className="sidebarListItem">
+                                <Storefront className="sidebarIcon" />
+                                Products
+                            </li>
+                        </Link>
+
                         <li className="sidebarListItem">
-                            <Storefront className="sidebarIcon"/>
-                            Products
-                        </li>
-                        <li className="sidebarListItem">
-                            <PaidOutlined className="sidebarIcon"/>
+                            <PaidOutlined className="sidebarIcon" />
                             Transactions
                         </li>
                         <li className="sidebarListItem">
-                            <AssessmentOutlined className="sidebarIcon"/>
+                            <AssessmentOutlined className="sidebarIcon" />
                             Reports
                         </li>
                     </ul>
@@ -52,15 +57,15 @@ export default function sidebar() {
                     <h3 className="sidebarTitle">Notifications</h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem active">
-                            <MailOutline className="sidebarIcon"/>
+                            <MailOutline className="sidebarIcon" />
                             Mail
                         </li>
                         <li className="sidebarListItem">
-                            <DynamicFeed className="sidebarIcon"/>
+                            <DynamicFeed className="sidebarIcon" />
                             Feedback
                         </li>
                         <li className="sidebarListItem">
-                            <ChatBubbleOutline className="sidebarIcon"/>
+                            <ChatBubbleOutline className="sidebarIcon" />
                             Messages
                         </li>
                     </ul>
@@ -69,15 +74,15 @@ export default function sidebar() {
                     <h3 className="sidebarTitle">Staff</h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem active">
-                            <WorkOutline className="sidebarIcon"/>
+                            <WorkOutline className="sidebarIcon" />
                             Manage
                         </li>
                         <li className="sidebarListItem">
-                            <Timeline className="sidebarIcon"/>
+                            <Timeline className="sidebarIcon" />
                             Analytics
                         </li>
                         <li className="sidebarListItem">
-                            <ReportGmailerrorred className="sidebarIcon"/>
+                            <ReportGmailerrorred className="sidebarIcon" />
                             Reports
                         </li>
                     </ul>

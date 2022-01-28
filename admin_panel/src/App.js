@@ -6,6 +6,8 @@ import Home from "./pages/home/Home";
 import UserList from "./pages/userList/userList";
 import User from "./pages/user/user";
 import NewUser from "./pages/newUser/newUser";
+import ProductList from "./pages/productList/productList"
+import Product from "./pages/product/Product";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { Switch } from "@mui/material";
 
@@ -18,9 +20,14 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path="/" element={<Home />}/>
+
           <Route path="/users" element={<UserList />}/>
           <Route path="/user/:userId" element={<User/>}/>
           <Route path="/newUser" element={<NewUser/>}/>
+
+          <Route path="/products" element={<ProductList/>}/>
+          <Route path="/product/:productsId" element={<Product/>}/>
+          <Route path="/newProducts" element={<NewUser/>}/>
         </Routes>
 
 
