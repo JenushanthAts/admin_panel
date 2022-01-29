@@ -8,6 +8,7 @@ import User from "./pages/user/user";
 import NewUser from "./pages/newUser/newUser";
 import ProductList from "./pages/productList/productList"
 import Product from "./pages/product/Product";
+import NewProduct from "./pages/newProduct/NewProduct"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { Switch } from "@mui/material";
 
@@ -27,7 +28,7 @@ function App() {
 
           <Route path="/products" element={<ProductList/>}/>
           <Route path="/product/:productsId" element={<Product/>}/>
-          <Route path="/newProducts" element={<NewUser/>}/>
+          <Route path="/newProduct" element={<NewProduct/>}/>
         </Routes>
 
 
